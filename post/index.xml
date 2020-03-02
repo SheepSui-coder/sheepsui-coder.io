@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on My New Hugo Site</title>
+    <link>https://sheepsui-coder.io/post/</link>
+    <description>Recent content in Posts on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 03 Mar 2020 02:25:01 +0800</lastBuildDate>
+    
+	<atom:link href="https://sheepsui-coder.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Blog</title>
+      <link>https://sheepsui-coder.io/post/blog/</link>
+      <pubDate>Tue, 03 Mar 2020 02:25:01 +0800</pubDate>
+      
+      <guid>https://sheepsui-coder.io/post/blog/</guid>
+      <description>第二次作业  作业通过markdown编辑器编写，公式输入使用Tex组件。
+完成人：邓珂 行政班级：电气1702	实际班级：电气1704
+完成时间：2020/3/2
+ 1、直流电动机为$P_N=74kW,UN=220V$，$I_N=378A$，$n_N=1430r/min$，$R_a=0.023Ω$。相控整流器内阻$R_rec=0.022Ω$。采用降压调速。当生产机械要求$s=20%$时，求系统的调速范围。如果$s=30%$时，则系统的调速范围又为多少？ **解：**  $$ C_e\phi_N=\frac{(U_N-I_NR_a)}{n_N}=\frac{(220-378\times 0.023)}{1430}=0.1478V\cdot min/r $$ 额定负载时转速跌落： $$ \Delta n=\frac{I_NR_a}{C_e\phi_N} = \frac{378\times(0.023+0.022)}{0.1478}=115r/min $$ $s=20%$时，系统的调速范围 $$ D=\frac{n_NS}{\Delta n_N(1-s)}=\frac{1430\times0.2}{115\times(1-0.2)}=3.1 $$ $s=30%$时，系统的调速范围 $$ D=\frac{n_NS}{\Delta n_N(1-s)}=\frac{1430\times0.3}{115\times(1-0.3)}=5.33 $$
+2、某龙门刨床工作台采用PWM变换器供电直流调速系统。已知直流电动机$P_N =60kW，U_N=220V，I_N=305A，n_N=1000r/min$，主电路总电阻$R=0.1Ω,C_e=0.2V\cdot min/r$,试求：   当电流连续时，在额定负载下的转速降落$\Delta n_N$为多少？
+  开环系统机械特性连续段在额定转速时的静差率$S_N$多少？
+  额定负载下的转速降落$\Delta n_N$有多少才能满足$D=20，s\leq 5%$的要求?
+解：
+  $$ \Delta n_N=\frac{I_N\times R}{C_e}=\frac{305\times0.1}{0.2}=152.5r/min $$
+  $$ S_N=\frac {\Delta n_N}{n_0}=\frac{152.5}{1000+152.5}=13.2% $$
+  $$ \Delta n=\frac{n_NS}{D(1-s)}=\frac{1000\times0.05}{20\times0.95}=2.63r/min $$
+    </description>
+    </item>
+    
+  </channel>
+</rss>
